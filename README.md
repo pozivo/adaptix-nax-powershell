@@ -4,10 +4,16 @@ Small AxScript extension for **Adaptix Framework v2** and **NaX / NoNameAx** tha
 
 ## Compatibility
 
-- Adaptix Framework v2
-- NaX branch `adaptix-v2-sync`
-- NoNameAx Windows agents
-- PowerShell available on the target host
+> **Reference / tested configuration:** this script is intended for **Adaptix Framework branch \`testing-v2.0\`** together with **NaX / NoNameAx branch \`adaptix-v2-sync\`** on Windows.
+>
+> Other Adaptix or NaX versions are **not automatically considered compatible**. See the compatibility matrix below before using the script with another branch/version.
+
+- Adaptix repository: \`Adaptix-Framework/AdaptixC2\`, branch \`testing-v2.0\`
+- NaX repository: \`MaorSabag/NaX\`, branch \`adaptix-v2-sync\`
+- Agent: NoNameAx on Windows
+- PowerShell: Windows PowerShell available on the target host
+
+See [Compatibility](docs/COMPATIBILITY.md) for tested, unsupported, and not-yet-tested configurations.
 
 The extension reuses NoNameAx's existing `ps run -o` execution path and does not add a second process execution implementation.
 
@@ -34,6 +40,7 @@ The extension reuses NoNameAx's existing `ps run -o` execution path and does not
 
 ## Documentation
 
+- [Compatibility](docs/COMPATIBILITY.md)
 - [Installation](docs/INSTALLATION.md)
 - [Command reference](docs/COMMANDS.md)
 - [Architecture](docs/ARCHITECTURE.md)
