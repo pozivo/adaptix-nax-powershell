@@ -2,10 +2,12 @@
 
 ## Requirements
 
-- Adaptix Framework v2
-- NaX from the `adaptix-v2-sync` branch
+- Adaptix Framework from `Adaptix-Framework/AdaptixC2`, branch `testing-v2.0`
+- NaX from `MaorSabag/NaX`, branch `adaptix-v2-sync`
 - A Windows NoNameAx agent
 - Windows PowerShell available on the managed host
+
+This is the project's reference configuration. Other branches/releases are not guaranteed compatible; see [COMPATIBILITY.md](COMPATIBILITY.md).
 
 The extension is an AxScript loaded by AdaptixClient. It does not require rebuilding NoNameAx.
 
