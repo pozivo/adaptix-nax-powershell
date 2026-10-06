@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.0 - 2026-10-06
+
+### Added
+
+- Read-only host, OS, IP, DNS, route, local user/group, hotfix, disk, environment, and uptime queries.
+- Shared helper for registering fixed PowerShell diagnostic commands.
+
+
+
 ## v0.1.0 - 2026-10-06
 
 ### Added
