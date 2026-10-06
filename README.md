@@ -20,6 +20,17 @@ The extension reuses NoNameAx's existing `ps run -o` execution path and does not
 | `ps-services` | List Windows services |
 | `ps-drives` | List filesystem drives |
 | `ps-network` | Show TCP connections |
+| `ps-hostname` | Show computer name |
+| `ps-os` | Show Windows version/build |
+| `ps-ip` | Show IP configuration |
+| `ps-dns` | Show DNS configuration |
+| `ps-routes` | Show IPv4 routes |
+| `ps-users` | List local users |
+| `ps-groups` | List local groups |
+| `ps-hotfixes` | List installed hotfixes |
+| `ps-disks` | Show logical disks |
+| `ps-env` | Show environment variables |
+| `ps-uptime` | Show boot time and uptime |
 
 ## Installation
 
@@ -53,6 +64,17 @@ ps-info
 ps-services
 ps-drives
 ps-network
+ps-hostname
+ps-os
+ps-ip
+ps-dns
+ps-routes
+ps-users
+ps-groups
+ps-hotfixes
+ps-disks
+ps-env
+ps-uptime
 ```
 
 ## Tested
