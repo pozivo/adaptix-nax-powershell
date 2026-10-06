@@ -32,6 +32,14 @@ The extension reuses NoNameAx's existing `ps run -o` execution path and does not
 | `ps-env` | Show environment variables |
 | `ps-uptime` | Show boot time and uptime |
 
+## Documentation
+
+- [Installation](docs/INSTALLATION.md)
+- [Command reference](docs/COMMANDS.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Testing and troubleshooting](docs/TESTING.md)
+- [Changelog](CHANGELOG.md)
+
 ## Installation
 
 Clone the repository:
