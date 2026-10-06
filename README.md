@@ -55,6 +55,18 @@ ps-drives
 ps-network
 ```
 
+## Tested
+
+Validated on 2026-10-06 with Adaptix Framework v2 and NaX / NoNameAx on Windows. The following commands were exercised successfully end-to-end:
+
+- `ps-date`: returned the system date/time.
+- `ps-info`: returned the running process list.
+- `ps-services`: returned Windows service status/name/display name data.
+- `ps-drives`: returned filesystem drive information.
+- `ps-network`: returned TCP connection/listener information.
+
+The tests confirmed the AxScript -> NoNameAx `ps run -o` -> PowerShell -> captured output path while keeping the agent session stable.
+
 ## Scope
 
 This project intentionally ships only read-only administrative queries. It is intended for authorized lab, administrative, and defensive testing environments.
